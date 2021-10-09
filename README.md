@@ -1,5 +1,7 @@
 # roulette
 
+[Demo](https://roulette-minju-s.vercel.app)
+
 ## Project setup
 ```
 npm install
