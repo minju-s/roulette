@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<Roulette msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Roulette from './components/Roulette.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Roulette
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: darkgreen;
+  color: white;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
 }
 </style>
